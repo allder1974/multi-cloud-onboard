@@ -7,7 +7,7 @@ install:
 			pip install -r requirements.txt
 			
 test:
-		#python -m pytest -vv --cov=myrepolib tests\*.py
+		python -m pytest -vv --cov=hello tests_hello.py
 		#python -m pytest -vv --nbval notebook.ipynb
 
 lint:
